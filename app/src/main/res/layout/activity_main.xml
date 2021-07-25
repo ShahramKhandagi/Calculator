@@ -29,31 +29,51 @@
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="C"
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="+/-"
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="%"
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="÷"
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
         </LinearLayout>
 
         <LinearLayout
@@ -63,31 +83,51 @@
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="7"
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="8"
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="9"
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="×"
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
         </LinearLayout>
 
         <LinearLayout
@@ -97,31 +137,51 @@
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="4"
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="5"
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="6"
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="-"
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
         </LinearLayout>
 
         <LinearLayout
@@ -131,31 +191,51 @@
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="1"
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="2"
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="3"
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="+"
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
         </LinearLayout>
 
         <LinearLayout
@@ -165,31 +245,51 @@
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="0"
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="."
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="B"
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
 
             <Button
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="65dp"
+                android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
-                android:text="Button" />
+                android:fontFamily="@font/carres"
+                android:text="="
+                android:textColor="#5887ae       "
+                android:textSize="24sp"
+                android:textStyle="normal" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
