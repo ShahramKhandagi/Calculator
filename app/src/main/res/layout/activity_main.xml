@@ -22,7 +22,6 @@
             android:fontFamily="@font/carres"
             android:gravity="bottom|right"
             android:padding="10dp"
-            android:text="16"
             android:textColor="#5887ae       "
             android:textSize="40sp"
             android:textStyle="bold" />
@@ -35,7 +34,7 @@
             android:fontFamily="@font/carres"
             android:gravity="center|right"
             android:padding="10dp"
-            android:text="10 + 6"
+            android:text="0"
             android:textColor="#5887ae       "
             android:textSize="36sp" />
     </LinearLayout>
@@ -59,6 +58,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
                 android:fontFamily="sans-serif"
+                android:onClick="clearButton"
                 android:text="C"
                 android:textColor="#5887ae       "
                 android:textSize="24sp"
@@ -78,13 +78,14 @@
                 android:textStyle="normal" />
 
             <Button
-                android:id="@+id/precent"
+                android:id="@+id/percentage"
                 android:layout_width="wrap_content"
                 android:layout_height="65dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
                 android:fontFamily="@font/carres"
+                android:onClick="operationButton"
                 android:text="%"
                 android:textColor="#5887ae       "
                 android:textSize="24sp"
@@ -98,6 +99,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
                 android:fontFamily="@font/carres"
+                android:onClick="operationButton"
                 android:text="÷"
                 android:textColor="#5887ae       "
                 android:textSize="24sp"
@@ -110,39 +112,42 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/7"
+                android:id="@+id/seven"
                 android:layout_width="wrap_content"
                 android:layout_height="65dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
                 android:fontFamily="@font/carres"
+                android:onClick="numbersButton"
                 android:text="7"
                 android:textColor="#5887ae       "
                 android:textSize="24sp"
                 android:textStyle="normal" />
 
             <Button
-                android:id="@+id/8"
+                android:id="@+id/eight"
                 android:layout_width="wrap_content"
                 android:layout_height="65dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
                 android:fontFamily="@font/carres"
+                android:onClick="numbersButton"
                 android:text="8"
                 android:textColor="#5887ae       "
                 android:textSize="24sp"
                 android:textStyle="normal" />
 
             <Button
-                android:id="@+id/9"
+                android:id="@+id/nine"
                 android:layout_width="wrap_content"
                 android:layout_height="65dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
                 android:fontFamily="@font/carres"
+                android:onClick="numbersButton"
                 android:text="9"
                 android:textColor="#5887ae       "
                 android:textSize="24sp"
@@ -156,6 +161,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
                 android:fontFamily="@font/carres"
+                android:onClick="operationButton"
                 android:text="×"
                 android:textColor="#5887ae       "
                 android:textSize="24sp"
@@ -168,39 +174,42 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/4"
+                android:id="@+id/four"
                 android:layout_width="wrap_content"
                 android:layout_height="65dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
                 android:fontFamily="@font/carres"
+                android:onClick="numbersButton"
                 android:text="4"
                 android:textColor="#5887ae       "
                 android:textSize="24sp"
                 android:textStyle="normal" />
 
             <Button
-                android:id="@+id/5"
+                android:id="@+id/five"
                 android:layout_width="wrap_content"
                 android:layout_height="65dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
                 android:fontFamily="@font/carres"
+                android:onClick="numbersButton"
                 android:text="5"
                 android:textColor="#5887ae       "
                 android:textSize="24sp"
                 android:textStyle="normal" />
 
             <Button
-                android:id="@+id/6"
+                android:id="@+id/six"
                 android:layout_width="wrap_content"
                 android:layout_height="65dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
                 android:fontFamily="@font/carres"
+                android:onClick="numbersButton"
                 android:text="6"
                 android:textColor="#5887ae       "
                 android:textSize="24sp"
@@ -214,6 +223,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
                 android:fontFamily="@font/carres"
+                android:onClick="operationButton"
                 android:text="-"
                 android:textColor="#5887ae       "
                 android:textSize="24sp"
@@ -226,39 +236,42 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/1"
+                android:id="@+id/one"
                 android:layout_width="wrap_content"
                 android:layout_height="65dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
                 android:fontFamily="@font/carres"
+                android:onClick="numbersButton"
                 android:text="1"
                 android:textColor="#5887ae       "
                 android:textSize="24sp"
                 android:textStyle="normal" />
 
             <Button
-                android:id="@+id/2"
+                android:id="@+id/two"
                 android:layout_width="wrap_content"
                 android:layout_height="65dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
                 android:fontFamily="@font/carres"
+                android:onClick="numbersButton"
                 android:text="2"
                 android:textColor="#5887ae       "
                 android:textSize="24sp"
                 android:textStyle="normal" />
 
             <Button
-                android:id="@+id/3"
+                android:id="@+id/three"
                 android:layout_width="wrap_content"
                 android:layout_height="65dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
                 android:fontFamily="@font/carres"
+                android:onClick="numbersButton"
                 android:text="3"
                 android:textColor="#5887ae       "
                 android:textSize="24sp"
@@ -272,6 +285,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
                 android:fontFamily="@font/carres"
+                android:onClick="operationButton"
                 android:text="+"
                 android:textColor="#5887ae       "
                 android:textSize="24sp"
@@ -284,13 +298,14 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/0"
+                android:id="@+id/zero"
                 android:layout_width="wrap_content"
                 android:layout_height="65dp"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
                 android:fontFamily="@font/carres"
+                android:onClick="numbersButton"
                 android:text="0"
                 android:textColor="#5887ae       "
                 android:textSize="24sp"
@@ -304,6 +319,7 @@
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
                 android:fontFamily="@font/carres"
+                android:onClick="dotButton"
                 android:text="."
                 android:textColor="#5887ae       "
                 android:textSize="24sp"
