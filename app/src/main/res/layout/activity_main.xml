@@ -346,8 +346,9 @@
                 android:layout_weight="1"
                 android:background="@drawable/buttons_background"
                 android:fontFamily="@font/carres"
+                android:onClick="equalButton"
                 android:text="="
-                android:textColor="#5887ae       "
+                android:textColor="#5887ae"
                 android:textSize="24sp"
                 android:textStyle="normal" />
         </LinearLayout>
