@@ -34,7 +34,6 @@
             android:fontFamily="@font/carres"
             android:gravity="center|right"
             android:padding="10dp"
-            android:text="0"
             android:textColor="#5887ae       "
             android:textSize="36sp" />
     </LinearLayout>

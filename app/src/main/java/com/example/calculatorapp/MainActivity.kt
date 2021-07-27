@@ -88,7 +88,6 @@ class MainActivity : AppCompatActivity() {
         var prefix = ""
 
         var inputValue = binding.input.text.toString()
-        isOperationInInput = true
         if (isNumberInInput && isOperationInInput && !isEqualInInput) {
             binding.input.append("=")
             isEqualInInput = true
@@ -153,7 +152,7 @@ class MainActivity : AppCompatActivity() {
 
     // change text size
     fun textSize() {
-        if (isNumberInInput && isOperationInInput) {
+        if (isEqualInInput) {
             binding.input.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18f)
             binding.output.setTextSize(TypedValue.COMPLEX_UNIT_SP, 36f)
         }
