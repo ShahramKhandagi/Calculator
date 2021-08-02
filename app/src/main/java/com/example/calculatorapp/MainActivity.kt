@@ -37,7 +37,7 @@ class MainActivity : AppCompatActivity() {
         isDotInInput = false
         isEqualInInput = false
         binding.input.setTextSize(TypedValue.COMPLEX_UNIT_SP, 36f)
-        binding.output.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14f)
+        binding.output.setTextSize(TypedValue.COMPLEX_UNIT_SP, 50f)
 
     }
 
@@ -55,7 +55,7 @@ class MainActivity : AppCompatActivity() {
             binding.input.append(selectedButton.text)
             binding.output.text = ""
             binding.input.setTextSize(TypedValue.COMPLEX_UNIT_SP, 36f)
-            binding.output.setTextSize(TypedValue.COMPLEX_UNIT_SP, 14f)
+            binding.output.setTextSize(TypedValue.COMPLEX_UNIT_SP, 50f)
             isNumberInInput = false
             isOperationInInput = true
             isEqualInInput = false
@@ -66,11 +66,14 @@ class MainActivity : AppCompatActivity() {
     // Dot Function
     fun dotButton(view: View) {
         val selectedButton = view as Button
-        if (isNumberInInput && !isOperationInInput && !isDotInInput) {
+        if (isNumberInInput && !isDotInInput) {
             binding.input.append(selectedButton.text)
             isNumberInInput = false
             isDotInInput = true
-            isOperationInInput = true // problem
+        } else if(!isNumberInInput && !isDotInInput) {
+            binding.input.append("0.")
+            isNumberInInput = false
+            isDotInInput = true
         }
     }
 
@@ -145,9 +148,9 @@ class MainActivity : AppCompatActivity() {
 
     // change text size
     fun textSize() {
-        if (isEqualInInput && isOperationInInput) {
-            binding.input.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18f)
-            binding.output.setTextSize(TypedValue.COMPLEX_UNIT_SP, 36f)
+        if (isEqualInInput) {
+            binding.input.setTextSize(TypedValue.COMPLEX_UNIT_SP, 36f)
+            binding.output.setTextSize(TypedValue.COMPLEX_UNIT_SP, 50f)
         }
     }
 }

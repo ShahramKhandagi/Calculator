@@ -23,7 +23,7 @@
             android:gravity="bottom|right"
             android:padding="10dp"
             android:textColor="#5887ae       "
-            android:textSize="40sp"
+            android:textSize="50sp"
             android:textStyle="bold" />
 
         <TextView
