@@ -8,7 +8,7 @@ import android.widget.Button
 import com.example.calculatorapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    var isNumberInInput = true
+    var isNumberInInput = false
     var isOperationInInput = false
     var isDotInInput = false
     var isEqualInInput = false
@@ -70,14 +70,7 @@ class MainActivity : AppCompatActivity() {
             binding.input.append(selectedButton.text)
             isNumberInInput = false
             isDotInInput = true
-        } else if (binding.input.text.isEmpty()) {
-            binding.input.append("0.")
-            isDotInInput = true
-            isNumberInInput = false
-        } else if (isOperationInInput) {
-            binding.input.append("0.")
-            isDotInInput = true
-            isOperationInInput = false
+            isOperationInInput = true // problem
         }
     }
 
@@ -152,7 +145,7 @@ class MainActivity : AppCompatActivity() {
 
     // change text size
     fun textSize() {
-        if (isEqualInInput) {
+        if (isEqualInInput && isOperationInInput) {
             binding.input.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18f)
             binding.output.setTextSize(TypedValue.COMPLEX_UNIT_SP, 36f)
         }
