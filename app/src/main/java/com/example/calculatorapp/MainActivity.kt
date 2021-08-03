@@ -6,6 +6,7 @@ import android.util.TypedValue
 import android.view.View
 import android.widget.Button
 import com.example.calculatorapp.databinding.ActivityMainBinding
+import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
     var isNumberInInput = false
@@ -17,6 +18,16 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+
+        backspace.setOnClickListener {
+            binding.input.text = binding.input.text.dropLast(1)
+            isOperationInInput = false
+            isDotInInput = false
+            isNumberInInput = true
+            isEqualInInput = false
+        }
+
     }
 
     // Numbers Function
@@ -70,7 +81,7 @@ class MainActivity : AppCompatActivity() {
             binding.input.append(selectedButton.text)
             isNumberInInput = false
             isDotInInput = true
-        } else if(!isNumberInInput && !isDotInInput) {
+        } else if (!isNumberInInput && !isDotInInput) {
             binding.input.append("0.")
             isNumberInInput = false
             isDotInInput = true
@@ -79,10 +90,8 @@ class MainActivity : AppCompatActivity() {
 
     //Equal Function
     fun equalButton(view: View) {
-
         textSize()
         var prefix = ""
-
         var inputValue = binding.input.text.toString()
         if (isNumberInInput && isOperationInInput && !isEqualInInput) {
             binding.input.append("=")
@@ -153,4 +162,6 @@ class MainActivity : AppCompatActivity() {
             binding.output.setTextSize(TypedValue.COMPLEX_UNIT_SP, 50f)
         }
     }
+
+
 }
